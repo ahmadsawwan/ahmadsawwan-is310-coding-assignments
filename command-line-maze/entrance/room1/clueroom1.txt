@@ -1,0 +1,1 @@
+make sure to read the clues in every file, if reaching deadend, use cd ..to go back to entrance, then try the other rooms, now go to room 4
