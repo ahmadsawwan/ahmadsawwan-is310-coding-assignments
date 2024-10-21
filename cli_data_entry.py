@@ -5,22 +5,22 @@ import os
 
 # Create a Console instance
 console = Console()
-console.print("Here is some initial data:", style="bold cyan")
+console.print("Here is game data:", style="red")
 table = Table(title="Popular Video Games")
-table.add_column("Released", style="cyan", no_wrap=True)
+table.add_column("Released", style="red", no_wrap=True)
 table.add_column("Title", style="magenta")
 table.add_column("Genre", style="green")
-table.add_row("Nov 10, 2020", "Assassin's Creed Valhalla", "Action RPG")
-table.add_row("Dec 10, 2020", "Cyberpunk 2077", "Action RPG")
-table.add_row("Sep 4, 2020", "Marvel's Avengers", "Action-adventure")
-table.add_row("Mar 20, 2020", "Animal Crossing: New Horizons", "Simulation")
+table.add_row("Nov 10, 2020", "Assassin's Creed Valhalla", "RPG")
+table.add_row("Dec 10, 2020", "Cyberpunk 2077", "RPG")
+table.add_row("Sep 28, 2021", "New World", "MMO/RPG")
+table.add_row("Oct 10, 2017", "middle-earth: shadow of war", "Action-Adventure")
 console.print(table)
-console.print("\n[bold cyan]Now I want you to enter your preferred video games:[/bold cyan]")
+console.print("\n[bold cyan]Please enter your preferred video games:[/bold cyan]")
 
 def get_user_data():
-    game_title = console.input("Enter the title of the game: ")
-    release_date = console.input("Enter the release date of the game: ")
-    genre = console.input("Enter the genre of the game: ")
+    game_title = console.input("Title of the game: ")
+    release_date = console.input("Release date of the game: ")
+    genre = console.input("Genre of the game: ")
     return {
         "title": game_title,
         "release_date": release_date,
