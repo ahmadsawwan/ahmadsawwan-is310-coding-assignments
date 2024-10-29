@@ -1,0 +1,214 @@
+{
+    "spotify_artist": {
+        "external_urls": {
+            "spotify": "https://open.spotify.com/artist/4MCBfE4596Uoi2O4DtmEMz"
+        },
+        "followers": {
+            "href": null,
+            "total": 35822011
+        },
+        "genres": [
+            "chicago rap",
+            "melodic rap",
+            "rap"
+        ],
+        "href": "https://api.spotify.com/v1/artists/4MCBfE4596Uoi2O4DtmEMz",
+        "id": "4MCBfE4596Uoi2O4DtmEMz",
+        "images": [
+            {
+                "height": 640,
+                "url": "https://i.scdn.co/image/ab6761610000e5eb1908e1a8b79abf71d5598944",
+                "width": 640
+            },
+            {
+                "height": 320,
+                "url": "https://i.scdn.co/image/ab676161000051741908e1a8b79abf71d5598944",
+                "width": 320
+            },
+            {
+                "height": 160,
+                "url": "https://i.scdn.co/image/ab6761610000f1781908e1a8b79abf71d5598944",
+                "width": 160
+            }
+        ],
+        "name": "Juice WRLD",
+        "popularity": 88,
+        "type": "artist",
+        "uri": "spotify:artist:4MCBfE4596Uoi2O4DtmEMz"
+    },
+    "europeana_item": {
+        "apikey": "thworthecla",
+        "success": true,
+        "requestNumber": 999,
+        "itemsCount": 1,
+        "totalResults": 5724,
+        "items": [
+            {
+                "completeness": 5,
+                "country": [
+                    "Italy"
+                ],
+                "dataProvider": [
+                    "Internet Culturale"
+                ],
+                "dcCreator": [
+                    "Mystery Juice",
+                    "Mystery Juice",
+                    "Mystery Juice"
+                ],
+                "dcCreatorLangAware": {
+                    "def": [
+                        "Mystery Juice"
+                    ],
+                    "en": [
+                        "Mystery Juice"
+                    ],
+                    "it": [
+                        "Mystery Juice"
+                    ]
+                },
+                "dcLanguage": [
+                    "eng"
+                ],
+                "dcLanguageLangAware": {
+                    "def": [
+                        "eng"
+                    ]
+                },
+                "dcTitleLangAware": {
+                    "def": [
+                        "Seed / Mystery Juice"
+                    ],
+                    "en": [
+                        "Seed/Mystery Juice"
+                    ],
+                    "it": [
+                        "Seed / Mystery Juice"
+                    ]
+                },
+                "edmConcept": [
+                    "http://data.europeana.eu/concept/soundgenres/Music"
+                ],
+                "edmConceptLabel": [
+                    {
+                        "def": "Musik"
+                    },
+                    {
+                        "def": "Music"
+                    },
+                    {
+                        "def": "Musica"
+                    },
+                    {
+                        "def": "Muzyka"
+                    },
+                    {
+                        "def": "Musique"
+                    },
+                    {
+                        "def": "Música"
+                    }
+                ],
+                "edmConceptPrefLabelLangAware": {
+                    "de": [
+                        "Musik"
+                    ],
+                    "en": [
+                        "Music"
+                    ],
+                    "it": [
+                        "Musica"
+                    ],
+                    "pl": [
+                        "Muzyka"
+                    ],
+                    "fr": [
+                        "Musique"
+                    ],
+                    "es": [
+                        "Música"
+                    ]
+                },
+                "edmDatasetName": [
+                    "2059218_Ag_EU_eSOUNDS_1016_ICCU"
+                ],
+                "edmIsShownAt": [
+                    "http://www.internetculturale.it/opencms/opencms/it/viewItemMag.jsp?id=oai%3A192.168.10.31%3A22%3ARM0200%3AIT-DDS0000090635000000&teca=ICBSA"
+                ],
+                "edmPreview": [
+                    "https://api.europeana.eu/thumbnail/v2/url.json?uri=http%3A%2F%2Fwww.internetculturale.it%2Fjmms%2Fthumbnail%3Ftype%3Dweb%26id%3Doai%253A192.168.10.31%253A22%253ARM0200%253AIT-DDS0000090635000000%26teca%3DICBSA&type=SOUND"
+                ],
+                "edmTimespanLabel": [
+                    {
+                        "def": "Second millenium AD"
+                    },
+                    {
+                        "def": "Second millenium AD, years 1001-2000"
+                    },
+                    {
+                        "def": "Time"
+                    },
+                    {
+                        "def": "Chronological period"
+                    },
+                    {
+                        "def": "2e millénaire après J.-C."
+                    },
+                    {
+                        "def": "2002"
+                    }
+                ],
+                "edmTimespanLabelLangAware": {
+                    "en": [
+                        "Second millenium AD",
+                        "Second millenium AD, years 1001-2000",
+                        "Time",
+                        "Chronological period"
+                    ],
+                    "zxx": [
+                        "2002"
+                    ],
+                    "fr": [
+                        "2e millénaire après J.-C."
+                    ]
+                },
+                "europeanaCollectionName": [
+                    "2059218_Ag_EU_eSOUNDS_1016_ICCU"
+                ],
+                "europeanaCompleteness": 5,
+                "guid": "https://www.europeana.eu/item/2059218/data_sounds_IT_DDS0000090635000000?utm_source=api&utm_medium=api&utm_campaign=thworthecla",
+                "id": "/2059218/data_sounds_IT_DDS0000090635000000",
+                "index": 0,
+                "language": [
+                    "it"
+                ],
+                "link": "https://api.europeana.eu/record/2059218/data_sounds_IT_DDS0000090635000000.json?wskey=thworthecla",
+                "previewNoDistribute": false,
+                "provider": [
+                    "Europeana Sounds"
+                ],
+                "rights": [
+                    "http://rightsstatements.org/vocab/InC/1.0/"
+                ],
+                "score": 97.258835,
+                "timestamp": 1688649254836,
+                "timestamp_created": "2016-07-08T08:47:43.676Z",
+                "timestamp_created_epoch": 1467967663676,
+                "timestamp_update": "2016-07-08T12:59:53.014Z",
+                "timestamp_update_epoch": 1467982793014,
+                "title": [
+                    "Seed / Mystery Juice",
+                    "Seed/Mystery Juice",
+                    "Seed / Mystery Juice"
+                ],
+                "type": "SOUND",
+                "ugc": [
+                    false
+                ],
+                "year": [
+                    "2002"
+                ]
+            }
+        ]
+    }
+}
