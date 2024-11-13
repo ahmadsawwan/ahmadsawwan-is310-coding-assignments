@@ -1,0 +1,1 @@
+In this assignment, I will be looking at the data set of top500 authors. Specifically, I will be analyzing gender and ranking. I will be taking a look at if there exists a certain bias in the rankings or in the dataset as a whole. 
