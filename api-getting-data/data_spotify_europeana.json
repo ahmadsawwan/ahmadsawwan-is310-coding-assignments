@@ -5,7 +5,7 @@
         },
         "followers": {
             "href": null,
-            "total": 35822011
+            "total": 36088202
         },
         "genres": [
             "chicago rap",
@@ -32,7 +32,7 @@
             }
         ],
         "name": "Juice WRLD",
-        "popularity": 88,
+        "popularity": 89,
         "type": "artist",
         "uri": "spotify:artist:4MCBfE4596Uoi2O4DtmEMz"
     },
@@ -41,7 +41,7 @@
         "success": true,
         "requestNumber": 999,
         "itemsCount": 1,
-        "totalResults": 5724,
+        "totalResults": 5716,
         "items": [
             {
                 "completeness": 5,
@@ -190,7 +190,7 @@
                 "rights": [
                     "http://rightsstatements.org/vocab/InC/1.0/"
                 ],
-                "score": 97.258835,
+                "score": 97.45182,
                 "timestamp": 1688649254836,
                 "timestamp_created": "2016-07-08T08:47:43.676Z",
                 "timestamp_created_epoch": 1467967663676,
