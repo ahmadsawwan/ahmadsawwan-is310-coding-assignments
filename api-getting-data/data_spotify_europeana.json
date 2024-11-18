@@ -5,7 +5,7 @@
         },
         "followers": {
             "href": null,
-            "total": 36088202
+            "total": 36162306
         },
         "genres": [
             "chicago rap",
@@ -190,7 +190,7 @@
                 "rights": [
                     "http://rightsstatements.org/vocab/InC/1.0/"
                 ],
-                "score": 97.45182,
+                "score": 97.45201,
                 "timestamp": 1688649254836,
                 "timestamp_created": "2016-07-08T08:47:43.676Z",
                 "timestamp_created_epoch": 1467967663676,

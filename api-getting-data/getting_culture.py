@@ -76,8 +76,9 @@ data_to_store = {
 }
 
 
+filename = "data_spotify_europeana.json"
 
-filename = os.path.join("api-getting-data", "data_spotify_europeana.json")
 with open(filename, 'w', encoding='utf-8') as json_file:
     json.dump(data_to_store, json_file, ensure_ascii=False, indent=4)
+
     
