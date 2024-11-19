@@ -5,13 +5,19 @@ import json
 import os
 
 # Ensure the directory exists
-os.makedirs('web_scraping_assignments', exist_ok=True)
+os.makedirs('web_scraping_assignments copy', exist_ok=True)
 
-# Load the HTML file
-soup = BeautifulSoup(open("/Users/ahmadsawwan/Downloads/The 52 Best TV Shows on Hulu Right Now (October 2024) - TV Guide.html"), features="html.parser")
+# URL of the Fandom Wiki page
+url = "https://www.tvguide.com/news/best-shows-on-hulu/"
 
-# Print the prettified HTML
-print(soup.prettify())
+# Fetch the HTML content of the page
+response = requests.get(url)
+if response.status_code == 200:
+    soup = BeautifulSoup(response.content, 'html.parser')
+
+    # Print the prettified HTML
+    print(soup.prettify())
+
 
 # Find the element with id="h2"
 top = soup.find(id="h2")
@@ -32,5 +38,5 @@ for title in titles:
     if "Trailer" not in text:
         title_list.append(text)
 # Save to JSON
-with open('web_scraping_assignments/tv_shows.json', 'w', encoding='utf-8') as json_file:
+with open('web_scraping_assignments copy/tv_shows.json', 'w', encoding='utf-8') as json_file:
     json.dump(title_list, json_file, ensure_ascii=False, indent=4)
